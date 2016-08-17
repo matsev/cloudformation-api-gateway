@@ -1,0 +1,14 @@
+# IntelliJ
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# OS X
+.DS_Store
+
+node_modules
+target
+
+xunit-*.xml
+npm-debug.log

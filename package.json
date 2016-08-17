@@ -1,0 +1,17 @@
+{
+  "name": "api-gateway-lambda",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "itest": "mocha --recursive integration-test",
+    "xunit-itest": "XUNIT_FILE=xunit-itest.xml mocha --recursive integration-test -R xunit-file"
+  },
+  "devDependencies": {
+    "aws-sdk": "2.4.6",
+    "chai": "3.5.0",
+    "mocha": "2.5.3",
+    "request": "2.74.0",
+    "request-promise": "4.1.1",
+    "xunit-file": "1.0.0"
+  }
+}
