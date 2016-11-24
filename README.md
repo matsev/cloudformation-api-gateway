@@ -25,3 +25,8 @@ In order to execute the scripts, you need to install the following tools:
 | [create-stack.sh](scripts/create-stack.sh)                    | Creates the stack          |
 | [integration-test.sh](scripts/integration-test.sh)            | Executes integration tests |
 | [update-stack.sh](scripts/update-stack.sh)                    | Updates the stack          |
+
+
+## Update
+
+On the November 18th, 2016 AWS introduced the Serverless Application Model (or SAM for short) that provides an alternative solution to the one described in this blog post. Please read the [AWS blog post](https://aws.amazon.com/blogs/compute/introducing-simplified-serverless-application-deplyoment-and-management/) and study the related [project](https://github.com/awslabs/serverless-application-model/blob/master/README.md) at the AWS Labs GitHub account for more information.
